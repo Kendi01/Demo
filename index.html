@@ -3,86 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Trading Platform</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="../inn.html">
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rhapsody Delicacies</title>
 </head>
 <body>
-    <header>
-        <h1>Demo Trading Platform</h1>
-        <nav>
+    <div class="container" style="">
+        <div class="logo1" >
+                    <img src="img/Black And Red Modern Fast Food Menu.png" alt="" class="logo">
+        </div>
+        <div class="nav">
             <ul>
-                <li><a href="market.htlml">Market Data</a></li>
-                <li><a href="trade.html">Trade</a></li>
-                <li><a href="history.html">Trading History</a></li>
+                <li ><a class="link" download="Black And Red Modern Fast Food Menu.png" href="index.html">Menu</a> </li>
+                <li><a class="link" href="../dishes/dishes.html">Seasonal Dishes</a></li>
+                <li><a class="link" href="../inn/inn.html">Inside the Cafe</a></li>
+                <li ><a class="link" href="../inn/about.html">Delivery FAQ</a></li>
+                <li ><a class="link"  href="../inn/about.html">About</a></li>
+                <li><a class="link"  href="idk.html">Our Advocacy</a></li>
             </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="market">
-            <h2>Live Market Data</h2>
-            <div class="market-data">
-                <div class="market-item">
-                    <h3>Bitcoin (BTC/USD)</h3>
-                    <p>Price: <span class="price">$25,000</span></p>
-                    <p>Change: <span class="change">+2.5%</span></p>
-                </div>
-                <div class="market-item">
-                    <h3>Ethereum (ETH/USD)</h3>
-                    <p>Price: <span class="price">$1,700</span></p>
-                    <p>Change: <span class="change">+1.8%</span></p>
-                </div>
-                <!-- Add more market items as needed -->
-            </div>
-        </section>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/rhapsodydelicacies_254/" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
 
-        <section id="trade">
-            <h2>Place a Trade</h2>
-            <form class="trade-form">
-                <label for="symbol">Symbol:</label>
-                <input type="text" id="symbol" placeholder="BTC/USD">
-                
-                <label for="amount">Amount:</label>
-                <input type="number" id="amount" placeholder="0.0">
-
-                <label for="type">Order Type:</label>
-                <select id="type">
-                    <option value="buy">Buy</option>
-                    <option value="sell">Sell</option>
-                </select>
-
-                <button type="submit">Place Order</button>
-            </form>
-        </section>
-
-        <section id="history">
-            <h2>Trading History</h2>
-            <table class="history-table">
-                <thead>
-                    <tr>
-                        <th>Timestamp</th>
-                        <th>Symbol</th>
-                        <th>Amount</th>
-                        <th>Order Type</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2024-08-28 14:30</td>
-                        <td>BTC/USD</td>
-                        <td>0.1</td>
-                        <td>Buy</td>
-                        <td>Completed</td>
-                    </tr>
-                    <!-- Add more rows as needed -->
-                </tbody>
-            </table>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Demo Trading Platform. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
